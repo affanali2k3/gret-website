@@ -1,0 +1,28 @@
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.portfolio-hover img{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+
+}
+
+.portfolio-item:hover{
+    opacity: 0.8;
+    animation-name: hovering;
+    animation-duration: 3s;
+}
+
+@keyframes hovering {
+    0%{
+        opacity: 0.9;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    
+}
